@@ -1,0 +1,637 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\spload.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\spload.ico"
+IDR_SPLOADTYPE          ICON                    "res\\sploadDoc.ico"
+IDR_MAINFRAME2          ICON                    "res\\idr_main.ico"
+IDI_TRAY                ICON                    "res\\icon1.ico"
+IDI_HANDICON            ICON                    "res\\hand.cur"
+IDR_MAINFRAME3          ICON                    "res\\ico00001.ico"
+IDI_ICONBROWSER         ICON                    "res\\ico00002.ico"
+IDI_ICONSM              ICON                    "res\\ico00003.ico"
+IDR_MAINFRAME8          ICON                    "res\\ico00004.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "res\\Image2.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+IDB_DELBOX1             BITMAP                  "res\\delbox1.bmp"
+IDB_DELBOX2             BITMAP                  "res\\delbox2.bmp"
+IDB_DOWNBOX1            BITMAP                  "res\\downbox1.bmp"
+IDB_DOWNBOX2            BITMAP                  "res\\downbox2.bmp"
+IDB_UPBOX1              BITMAP                  "res\\upbox1.bmp"
+IDB_UPBOX2              BITMAP                  "res\\upbox2.bmp"
+IDB_SAVEBOX1            BITMAP                  "res\\savebox1.bmp"
+IDB_SAVEBOX2            BITMAP                  "res\\savebox2.bmp"
+IDB_SAVEBOX3            BITMAP                  "res\\savebox3.bmp"
+IDB_SAVEBOX4            BITMAP                  "res\\savebox4.bmp"
+IDB_BITMAP5             BITMAP                  "res\\Image6.bmp"
+IDB_TOOLBARBITMAP       BITMAP                  "res\\bitmap6.bmp"
+IDB_BITMAPADDURL        BITMAP                  "res\\Image1.bmp"
+IDB_OSBITMAP            BITMAP                  "res\\Image3.bmp"
+IDB_BITMAP6             BITMAP                  "res\\bmp00001.bmp"
+IDB_GONORM              BITMAP                  "res\\go1.bmp"
+IDB_GOFOCUS             BITMAP                  "res\\go2.bmp"
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_MAINFRAME4          BITMAP                  "res\\mainfram.bmp"
+IDR_MAINFRAME5          BITMAP                  "res\\bmp00002.bmp"
+IDR_MAINFRAME6          BITMAP                  "res\\bmp00003.bmp"
+IDR_MAINFRAME7          BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP7             BITMAP                  "res\\iconbrowser256.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR  35, 16
+BEGIN
+    BUTTON      ID_BUTTONGO
+END
+
+IDR_MAINFRAME4 TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_ADDURL
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_STARTDOWNLOAD1
+    BUTTON      ID_FILE_STOPDOWNLOAD1
+    SEPARATOR
+    BUTTON      ID_FILE_SHOWDOWNLOADFOLDER
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME5 TOOLBAR  52, 30
+BEGIN
+    BUTTON      ID_FILE_ADDURL
+    SEPARATOR
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_STARTDOWNLOAD1
+    SEPARATOR
+    BUTTON      ID_FILE_STOPDOWNLOAD1
+    SEPARATOR
+    BUTTON      ID_FILE_SHOWDOWNLOADFOLDER
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME6 TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_ADDURL
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_STARTDOWNLOAD1
+    BUTTON      ID_FILE_STOPDOWNLOAD1
+    SEPARATOR
+    BUTTON      ID_FILE_SHOWDOWNLOADFOLDER
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME7 TOOLBAR  52, 30
+BEGIN
+    BUTTON      ID_FILE_ADDURL
+    SEPARATOR
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_STARTDOWNLOAD1
+    SEPARATOR
+    BUTTON      ID_FILE_STOPDOWNLOAD1
+    SEPARATOR
+    BUTTON      ID_FILE_SHOWDOWNLOADFOLDER
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Start Download",              ID_FILE_STARTDOWNLOAD
+        MENUITEM "Stop Download",               ID_FILE_STOPDOWNLOAD
+        MENUITEM SEPARATOR
+        MENUITEM "Add URL",                     ID_FILE_ADDURL
+        MENUITEM "Remove All Items",            ID_FILE_REMOVEALLITEMS
+        MENUITEM SEPARATOR
+        MENUITEM "Show Download Folder",        ID_FILE_SHOWDOWNLOADFOLDER
+        MENUITEM "Set Download Folder",         ID_FILE_SETDOWNLOADFOLDER
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "Address Bar",                 ID_VIEW_ADDRESSBAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Contents",                    ID_HELP_CONTENTS
+        MENUITEM SEPARATOR
+        MENUITEM "ConnectFusion Website",       ID_HELP_CONNECTFUSIONWEBSITE
+        MENUITEM "ConnectFusion FAQ",           ID_HELP_CONNECTFUSIONFAQ
+        MENUITEM "ConnectFusion Source",        ID_HELP_CONNECTFUSIONSOURCE
+        MENUITEM SEPARATOR
+        MENUITEM "&About ConnectFusion",        ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXTMENU MENU 
+BEGIN
+    POPUP "ContextMenu"
+    BEGIN
+        MENUITEM "Delete",                      ID_CONTEXTMENU_DELETE
+        MENUITEM "Move Up",                     ID_CONTEXTMENU_MOVEUP
+        MENUITEM "Move Down",                   ID_CONTEXTMENU_MOVEDOWN
+        MENUITEM "Save To",                     ID_CONTEXTMENU_SAVETO
+        MENUITEM "Clear Error",                 ID_CONTEXTMENU_CLEARERROR
+        MENUITEM SEPARATOR
+        MENUITEM "Add URL",                     ID_FILE_ADDURL
+        MENUITEM SEPARATOR
+        MENUITEM "Show Download Folder",        ID_FILE_SHOWDOWNLOADFOLDER
+    END
+END
+
+IDR_MAINFRAME1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Sen&d...",                    ID_FILE_SEND_MAIL
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About spload...",            ID_APP_ABOUT
+    END
+END
+
+IDR_TRAYMENU MENU 
+BEGIN
+    POPUP "Tray"
+    BEGIN
+        MENUITEM "Restore",                     ID_TRAY_RESTORE
+        MENUITEM SEPARATOR
+        MENUITEM "&About ConnectFusion",        ID_APP_ABOUT
+        MENUITEM "Show Download Folder",        ID_FILE_SHOWDOWNLOADFOLDER
+        MENUITEM SEPARATOR
+        MENUITEM "Add URL",                     ID_FILE_ADDURL
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_APP_EXIT
+    END
+END
+
+IDR_CONTEXTMENU_UNSEL MENU 
+BEGIN
+    POPUP "Context"
+    BEGIN
+        MENUITEM "Add URL",                     ID_FILE_ADDURL
+        MENUITEM SEPARATOR
+        MENUITEM "Show Download Folder",        ID_FILE_SHOWDOWNLOADFOLDER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ConnectFusion"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,18,26,20,20
+    LTEXT           "ConnectFusion Download Accelerator Version 1.0",
+                    IDC_STATIC,47,25,172,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Grandhill Technology 2004",IDC_STATIC,47,
+                    37,173,8
+    DEFPUSHBUTTON   "OK",IDOK,89,58,50,14,WS_GROUP
+    GROUPBOX        "About ConnectFusion",IDC_STATIC,7,7,221,73
+END
+
+IDD_URLDIALOG DIALOGEX 0, 0, 238, 85
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add URL"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,18,31,201,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,72,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,128,63,50,14
+    LTEXT           "Enter URL to Download",IDC_STATIC,29,16,94,12
+    CONTROL         160,IDC_STATIC,"Static",SS_BITMAP,17,16,11,9
+    GROUPBOX        "Add URL",IDC_STATIC,7,3,224,54
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "spload MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "spload"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "spload.EXE"
+            VALUE "ProductName", "spload Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_URLDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "spload\n\nSpload\n\n\nSpload.Document\nSpload Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "spload"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Add URL\nAdd URL"
+    ID_FILE_OPEN            "Show Download Folder\nShow Download Folder"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+    ID_FILE_SEND_MAIL       "Send the active document through electronic mail\nSend Mail"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste URL"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_ADDRESS             "Address"
+    IDS_READY               "Ready"
+    IDS_SPEEDLOAD           "ConnectFusion - Fast Open Source Download Accelerator"
+    IDS_SAVE                "Save"
+    IDS_DOWNLOAD            "Download"
+    IDS_STOP                "Stop"
+    IDS_CDINC               "Cannot detect internet connection !"
+    IDS_STATSTR             "Rate %.1f  KB/Sec"
+    IDS_DOWNLOADSTOPPED     "Download Stopped"
+    IDS_STARTRESUME         "Start/Resume Download"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STOPDOWNLOAD        "Stop Download"
+    IDS_CLICKTOSCROLL       "Click to Scroll"
+    IDS_DRAGDEST            "Drag to destination folder to copy file"
+    IDS_DELETEDOWNLOAD      "Delete Download"
+    IDS_MOVEDOWN            "Move Down"
+    IDS_MOVEUP              "Move Up"
+    IDS_SAVEDOWNLOADAS      "Save Download As"
+    IDS_DELMSG              "Are you sure you want to delete this file ?"
+    IDS_DELCONFIRM          "Confirm Delete"
+    IDS_SAVETO              "Save To : "
+    IDS_STATUSS             "Status :"
+    IDS_PENDING             "Pending"
+    IDS_COMPLETED           "Completed"
+    IDS_PERCENT             "Percent :"
+    IDS_STATFORMAT          "%.2f%%      Size : %.1fK / %.1fK"
+    IDS_ERRORS              "Error"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UNABLETOLOAD        "Unable to download this file."
+    IDS_PARTIAL             "Partially Completed"
+    IDS_CONNECTING          "Connecting ..."
+    IDS_MERGING             "Merging File ..."
+    IDS_DOWNLOADCANRESUME   "Download In Progress (can resume)"
+    IDS_DOWNLOADCANNOTRESUME "Download In Progress (cannot resume)"
+    IDS_COMPLETEDS          "Completed :"
+    IDS_FORMAT1             "%.2f%%      Size : %.1fK / %.1fK        Est. Time   "
+    IDS_FORMAT2             "%.2f%%      Size : %.1fK / %.1fK"
+    IDS_FORMAT3             "Opened so far : %.1f K "
+    IDS_INITIATE            "Drag a link into this window to start download"
+    IDS_REMOVE              "This will clear all download items and remove all files in the download folder. Are you sure you want to proceed ?"
+    IDS_TRAYTIP             "ConnectFusion Download Accelerator"
+    IDS_ERRNOTE             "Error"
+    IDS_INVALIDURL          "Invalid URL"
+    IDS_URLACCESS           "This URL cannot be accessed with HTTP or FTP protocol"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PARSE               "Unable to parse the URL.<BR> Please provide a valid domain name."
+    IDS_REMOTE              "Unable to parse the remote object. Please provide a valid file name."
+    IDS_GO                  "Go"
+    IDS_DEFAULTPATH         "Default Download Folder is set to <BR>%s"
+    IDS_NOTE                "Note"
+    IDS_TIP                 "Download Tip"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_ADDURL          "Add URL\nAdd URL"
+    ID_FILE_STARTDOWNLOAD1  "Start Download\nStart Download"
+    ID_FILE_STOPDOWNLOAD1   "Stop Download\nStop Download"
+    ID_BUTTONGO             "Download URL\nDownload URL"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_STARTDOWNLOAD   "Start Download\nStart Download"
+    ID_FILE_STOPDOWNLOAD    "Stop Download\nStop Download"
+    ID_FILE_SHOWDOWNLOADFOLDER "Show Download Folder\nShow Download Folder"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\spload.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
