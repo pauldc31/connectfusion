@@ -369,13 +369,13 @@ BEGIN
     BEGIN
         BLOCK "040904B0"
         BEGIN
-            VALUE "FileDescription", "spload MFC Application"
-            VALUE "FileVersion", "1, 0, 0, 1"
-            VALUE "InternalName", "spload"
-            VALUE "LegalCopyright", "Copyright (C) 2004"
-            VALUE "OriginalFilename", "spload.EXE"
-            VALUE "ProductName", "spload Application"
-            VALUE "ProductVersion", "1, 0, 0, 1"
+            VALUE "FileDescription", "ConnectFusion Download Accelerator"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "ConnectFusion"
+            VALUE "LegalCopyright", "Copyright (C) Grandhill Technology 2004"
+            VALUE "OriginalFilename", "ConnectFusion.exe"
+            VALUE "ProductName", "ConnectFusion Download Accelerator"
+            VALUE "ProductVersion", "1.0"
         END
     END
     BLOCK "VarFileInfo"
